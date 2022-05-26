@@ -9,6 +9,7 @@ namespace begining
     
     struct Empolyee   //พนักงาน
     {
+        //โย่ว
         public string name; //ชื่อพนักงาน
         public int age;     //อายุ
         public double salary; // เงินเดือน
