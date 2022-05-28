@@ -55,14 +55,14 @@ namespace begining
             Console.WriteLine("Number = {0:P5}", number); //%
             Console.WriteLine("Number = {0:X}", number); //Hex
             Console.ReadKey();
-            /*Console.WriteLine("Score Rating = " + Rating.Verybad +" "+ (int)Rating.Verybad);
-            Console.ReadKey();*/
+            Console.WriteLine("Score Rating = " + Rating.Verybad +" "+ (int)Rating.Verybad);
+            Console.ReadKey();
 
-            /* Empolyee[] emp = new Empolyee[3];  //stuct Array
+            Empolyee[] emp = new Empolyee[3];  //stuct Array
              emp[0].setEmpolyee("mumu", 24, 20000.00, "IT Support");
-             emp[0].showEmpolyee(); */
+             emp[0].showEmpolyee(); 
 
-            /*Empolyee em1 = new Empolyee();
+            Empolyee em1 = new Empolyee();
             em1.setEmpolyee("KuKu", 20, 3200000, "GiGi");
             em1.showEmpolyee();
             em1.name = "isus";
@@ -74,10 +74,10 @@ namespace begining
             Console.WriteLine("Age: " + em1.age);
             Console.WriteLine("Salary: " + em1.salary);
             Console.WriteLine("Department: " + em1.department);
-            Console.ReadKey();*/
+            Console.ReadKey();
 
 
-            /*
+            
             //การแสดงผล(Wirte/WriteLine)
             Console.Write("KesukeTakoyaki");
             Console.WriteLine("SobaNoodle");
@@ -85,7 +85,7 @@ namespace begining
 
             //กำหนดลำดับการแสดงผลด้วยปีกกา
             Console.WriteLine("FirstName: {0} LastName: {1}", "Nobpharat", "Pongdong");               
-            Console.WriteLine("{0} + {2} = {1}, "50", "80", "30");
+            Console.WriteLine("{0} + {2} = {1}", 50, 80, 30);
             Console.ReadKey(); 
                            
             //Variable 
@@ -105,14 +105,14 @@ namespace begining
             Console.ReadKey();
             
             //format string
-            int number = 120000;
-            Console.WriteLine("Number = {0}", number);
-            Console.WriteLine("Number = {0:E}", number); //Exponential
-            Console.WriteLine("Number = {0:F4}", number); //Floating Point
-            Console.WriteLine("Number = {0:G}", number); //เเสดงตัวเลขรูปเเบสั้นที่สุด
-            Console.WriteLine("Number = {0:N}", number); //comma
-            Console.WriteLine("Number = {0:P}", number); //%
-            Console.WriteLine("Number = {0:X}", number); //Hex
+            int number1 = 120000;
+            Console.WriteLine("Number = {0}", number1);
+            Console.WriteLine("Number = {0:E}", number1); //Exponential
+            Console.WriteLine("Number = {0:F4}", number1); //Floating Point
+            Console.WriteLine("Number = {0:G}", number1); //เเสดงตัวเลขรูปเเบสั้นที่สุด
+            Console.WriteLine("Number = {0:N}", number1); //comma
+            Console.WriteLine("Number = {0:P}", number1); //%
+            Console.WriteLine("Number = {0:X}", number1); //Hex
             Console.ReadKey();
            
             //รับค่าผ่านทางคีย์บอร์ด
@@ -138,12 +138,12 @@ namespace begining
             Console.ReadKey();
 
             //Funtion math
-            double number = -15.59;            
-            Console.WriteLine("Abs = {0}",Math.Abs(number));//ค่าสมบูรณ์
-            Console.WriteLine("Ceiling = {0}", Math.Ceiling(number));//ปัดเศษขึ้นทุกกรณี
-            Console.WriteLine("Floor = {0}", Math.Floor(number));//ปัดเศษลง
-            Console.WriteLine("Round = {0}", Math.Round(number));//>.5ปัดลง <.5ปัดขึ้น
-            Console.WriteLine("Power = {0}", Math.Pow(number,2));//ยกกำลัง หลัง Comma
+            double num = -15.59;            
+            Console.WriteLine("Abs = {0}",Math.Abs(num));//ค่าสมบูรณ์
+            Console.WriteLine("Ceiling = {0}", Math.Ceiling(num));//ปัดเศษขึ้นทุกกรณี
+            Console.WriteLine("Floor = {0}", Math.Floor(num));//ปัดเศษลง
+            Console.WriteLine("Round = {0}", Math.Round(num));//>.5ปัดลง <.5ปัดขึ้น
+            Console.WriteLine("Power = {0}", Math.Pow(num,2));//ยกกำลัง หลัง Comma
             Console.WriteLine("Square Root = {0}", Math.Sqrt(25));//หารากมะม่วง
             Console.WriteLine("PI = {0:F4}", Math.PI);//ค่า PI
             Console.ReadKey();
@@ -160,26 +160,26 @@ namespace begining
             Console.ReadKey();
 
             //Operator เพิ่มค่า 
-            int a = 20, b = 10;
-            Console.WriteLine("a = {0}", a);
-            Console.WriteLine("Prefix = {0}", ++a); //Prefix เพิ่มค่าให้ n ก่อน 1 ค่า แล้วนำไปใช้
-            Console.WriteLine("Last a = {0}", a + "\n");
+            int a1 = 20, b1 = 10;
+            Console.WriteLine("a = {0}", a1);
+            Console.WriteLine("Prefix = {0}", ++a1); //Prefix เพิ่มค่าให้ n ก่อน 1 ค่า แล้วนำไปใช้
+            Console.WriteLine("Last a = {0}", a1 + "\n");
 
-            a = 20;
-            Console.WriteLine("a = {0}", a);
-            Console.WriteLine("Posfix = {0}", a++); //Posfix นำค่าปัจจุบันใน n ไปใช้ก่อน แล้วค่อยเพิ่มค่า
-            Console.WriteLine("Last a = {0}", a);
+            a1 = 20;
+            Console.WriteLine("a = {0}", a1);
+            Console.WriteLine("Posfix = {0}", a1++); //Posfix นำค่าปัจจุบันใน n ไปใช้ก่อน แล้วค่อยเพิ่มค่า
+            Console.WriteLine("Last a = {0}", a1);
 
 
             //Operator ลดค่า
-            Console.WriteLine("b = {0}", b);
-            Console.WriteLine("Prefix = {0}", --b); //Prefix ลดค่าให้ n ก่อน 1 ค่า แล้วนำไปใช้
-            Console.WriteLine("Last b = {0}", b + "\n");
+            Console.WriteLine("b = {0}", b1);
+            Console.WriteLine("Prefix = {0}", --b1); //Prefix ลดค่าให้ n ก่อน 1 ค่า แล้วนำไปใช้
+            Console.WriteLine("Last b = {0}", b1 + "\n");
 
-            b = 10;
-            Console.WriteLine("b = {0}", b);
-            Console.WriteLine("Posfix = {0}", b--); //Posfix นำค่าปัจจุบันใน n ไปใช้ก่อน แล้วค่อยลดค่า
-            Console.WriteLine("Last b = {0}", b);
+            b1 = 10;
+            Console.WriteLine("b = {0}", b1);
+            Console.WriteLine("Posfix = {0}", b1--); //Posfix นำค่าปัจจุบันใน n ไปใช้ก่อน แล้วค่อยลดค่า
+            Console.WriteLine("Last b = {0}", b1);
             Console.ReadKey();
 
             //Compound Assignment การลดรูปสมการ
@@ -203,6 +203,7 @@ namespace begining
             Console.WriteLine(x %= y); //x = x % y;
             Console.ReadKey();
 
+            /*
             //ลำดับความสำคัญของตัว Operator
             1. ()
             2. ++, --           ซ้ายไปขวา
@@ -213,58 +214,59 @@ namespace begining
             7. &&(AND)          ซ้ายไปขวา
             8. ||(OR)           "    "
             9. = , += , -= , *= , /= , %= Compound Assignment ขวาไปซ้าย
-             
+            */
+            
 
             //การแปลงชนิดข้อมูลType Casting
             //Convert
-            string MyString = "120";
-            int MyInt = 100;
+            string Mystring = "120";
+            int Myint = 100;
             
 
-            byte myByte = Convert.ToByte(MyString); //SBtye - 
-            short myShort = Convert.ToInt16(MyString);
-            int myInt = Convert.ToInt32(MyString);
-            long myLong = Convert.ToInt64(MyString);
-            float myFloat = Convert.ToSingle(MyString); //ทศนิยม
-            double myDouble = Convert.ToDouble(MyString); //ทศนิยม
+            byte myByte = Convert.ToByte(Mystring); //SBtye - 
+            short myShort = Convert.ToInt16(Mystring);
+            int myInt = Convert.ToInt32(Mystring);
+            long myLong = Convert.ToInt64(Mystring);
+            float myFloat = Convert.ToSingle(Mystring); //ทศนิยม
+            double myDouble = Convert.ToDouble(Mystring); //ทศนิยม
             string result = Convert.ToString(myDouble);
 
-            Console.WriteLine("Byte = {0}", myByte + MyInt);
-            Console.WriteLine("Short = {0}", myShort + MyInt);
-            Console.WriteLine("Int = {0}", myInt + MyInt);
-            Console.WriteLine("long = {0}", myLong + MyInt);
-            Console.WriteLine("Float = {0}", myFloat + MyInt);
-            Console.WriteLine("Double = {0}", myDouble + MyInt);
+            Console.WriteLine("Byte = {0}", myByte + Myint);
+            Console.WriteLine("Short = {0}", myShort + Myint);
+            Console.WriteLine("Int = {0}", myInt + Myint);
+            Console.WriteLine("long = {0}", myLong + Myint);
+            Console.WriteLine("Float = {0}", myFloat + Myint);
+            Console.WriteLine("Double = {0}", myDouble + Myint);
             Console.WriteLine("Double to String = {0}", result);
             Console.ReadKey();
 
 
             //Parse
-            string myString = "200";
+            string MyString = "200";
 
-            byte myByte = byte.Parse(myString);
-            short myShort = short.Parse(myString);
-            int myInt = int.Parse(myString);
-            long myLong = long.Parse(myString);
-            float myFloat = float.Parse(myString);
-            double myDouble = double.Parse(myString);
+            byte MyByte = byte.Parse(MyString);
+            short MyShort = short.Parse(MyString);
+            int MyInt = int.Parse(MyString);
+            long MyLong = long.Parse(MyString);
+            float MyFloat = float.Parse(MyString);
+            double MyDouble = double.Parse(MyString);
 
-            Console.WriteLine("Byte = {0}", myByte);
-            Console.WriteLine("Short = {0}", myShort);
-            Console.WriteLine("Int = {0}", myInt);
-            Console.WriteLine("Long = {0}", myLong);
-            Console.WriteLine("Float = {0}", myFloat);
-            Console.WriteLine("Double = {0}", myDouble);
+            Console.WriteLine("Byte = {0}", MyByte);
+            Console.WriteLine("Short = {0}", MyShort);
+            Console.WriteLine("Int = {0}", MyInt);
+            Console.WriteLine("Long = {0}", MyLong);
+            Console.WriteLine("Float = {0}", MyFloat);
+            Console.WriteLine("Double = {0}", MyDouble);
             Console.ReadLine();
 
             //Try Parse
-            string myString = "200.00";
-            int myInt;
-            long myLong;
-            bool success = int.TryParse(myString, out myInt);
-            bool success2 = long.TryParse(myString,out myLong);
-            float myFloat = float.Parse(myString);
-            double myDouble = double.Parse(myString);
+            string myString1 = "200.00";
+            int myInt1;
+            long myLong1;
+            bool success = int.TryParse(myString1, out myInt1);
+            bool success2 = long.TryParse(myString1,out myLong1);
+            float myFloat1 = float.Parse(myString1);
+            double myDouble1 = double.Parse(myString1);
 
             Console.WriteLine("Long = {0}", myLong);
             Console.WriteLine("Float = {0}", myFloat);
@@ -272,9 +274,9 @@ namespace begining
             Console.ReadLine(); 
 
             //การแปลงชนิดข้อมูลแบบ Narrowing Casting
-            double x = 105.21;
-            int y = (int)x;
-            Console.WriteLine(y);
+            double x1 = 105.21;
+            int y1 = (int)x1;
+            Console.WriteLine(y1);
             Console.ReadLine(); 
 
             //การคำนวณดัชนีมวลกาย(BMI)
@@ -340,14 +342,14 @@ namespace begining
 
 
             //if else Ternary Operator
-            int score = 0;
-            string result = "";
+            int Score = 0;
+            string Result = "";
 
             Console.Write("Input Score: ");
-            int.TryParse(Console.ReadLine(), out score);
+            int.TryParse(Console.ReadLine(), out Score);
 
-            result = (score >= 50) ? "Pass" : "NotPass";
-            Console.WriteLine("Status = {0}",result);
+            result = (Score >= 50) ? "Pass" : "NotPass";
+            Console.WriteLine("Status = {0}",Result);
             Console.ReadLine(); 
 
             //if ซ้อน if
@@ -411,11 +413,11 @@ namespace begining
 
 
             //For loop
-            int number = 0;
+            int number2 = 0;
             Console.Write("input Product: ");
-            int.TryParse(Console.ReadLine(), out number);
+            int.TryParse(Console.ReadLine(), out number2);
 
-            for (int i = 1;i <= number;i++)
+            for (int i = 1;i <= number2;i++)
             {
                 Console.WriteLine("Product {0}", i);
             }
@@ -423,44 +425,44 @@ namespace begining
 
 
             //Do While
-            int count = 10;
+            int Count = 10;
 
             do
             {
-                Console.WriteLine("Count {0}", count);
-                count++;
-            } while (count <= 0);
+                Console.WriteLine("Count {0}", Count);
+                Count++;
+            } while (Count <= 0);
             Console.ReadKey(); 
 
 
             //Break, Continue
-            int number = 0;
+            int number3 = 0;
             Console.Write("Input NUmber: ");
-            int.TryParse(Console.ReadLine(), out number);   
-            for (int count = 1;count <= 12; count++)
+            int.TryParse(Console.ReadLine(), out number3);   
+            for (int counted = 1;counted <= 12; counted++)
             {
-                if(count == 3)
+                if(counted == 3)
                 {
                     continue;     //ข้าม1ลูป
                 }
                 
-                else if(count == 7)
+                else if(counted == 7)
                 {
                     break;       //หยุดลูปตามเงื่อนไข
                 }
-                Console.WriteLine("{0} X {1} = {2}", number, count, 2*count);
+                Console.WriteLine("{0} X {1} = {2}", number3, counted, 2*counted);
             }
             Console.ReadKey();  
 
 
             //โจทย์หาผลรวมและค่าเฉลี่ย
             int sum = 0, avg = 0;
-            for (int count = 1; count <= 5;count++)
+            for (int countt = 1; countt <= 5;countt++)
             {
-                int num = 0;
+                int num3 = 0;
                 Console.Write("Input Number: ");
-                int.TryParse(Console.ReadLine(), out num);    
-                sum += num;
+                int.TryParse(Console.ReadLine(), out num3);    
+                sum += num3;
             }
             avg = sum / 5;
             Console.WriteLine("Sum = {0}"+ "\n" +"Avg = {1}", sum, avg);
@@ -471,10 +473,10 @@ namespace begining
             int minnumber = int.MaxValue, maxnumber = 0;
             while (true)
             {
-                int number;
+                int numberr;
                 Console.Write("Input Number: ");
-                int.TryParse(Console.ReadLine(), out number);
-                if (number < 0) break;
+                int.TryParse(Console.ReadLine(), out numberr);
+                if (numberr < 0) break;
 
                 if (number > maxnumber)
                 {
@@ -508,15 +510,15 @@ namespace begining
 
             //Array
             int[] vs = new int[6];
-            int[] num = {10, 20, 30, 40, 100};
-            double[] num2 = { 10.55, 20, 30};
+            int[] numm = {10, 20, 30, 40, 100};
+            double[] numm2 = { 10.55, 20, 30};
             string[] names = { "gun", "dew", "sus" ,"pet"};
-            num[2] = 100;
+            numm[2] = 100;
 
             
-            Console.WriteLine("number index = {0}", num2[0]);
-            Console.WriteLine("number index = {0}", num[1]);
-            Console.WriteLine("number index = {0}", num[2]);
+            Console.WriteLine("number index = {0}", numm2[0]);
+            Console.WriteLine("number index = {0}", numm[1]);
+            Console.WriteLine("number index = {0}", numm[2]);
             Console.WriteLine("number index = {0}", names[3]);
             Console.WriteLine("Count Array = {0}", names.Length);
             Console.ReadKey();
@@ -534,8 +536,8 @@ namespace begining
 
 
             //การเข้าถึงสมาชิกใน Array ค้วย Foreach
-            string[] students = { "pet", "ploy", "dew", "mei", "mai", "sus", "yut" };
-            foreach (string name in students)
+            string[] Students = { "pet", "ploy", "dew", "mei", "mai", "sus", "yut" };
+            foreach (string name in Students)
             {
                 Console.WriteLine("Students {0}", name);
             }
@@ -544,13 +546,13 @@ namespace begining
 
             //Array 2 มิติ
             // [แถว,คอลัมน์]
-            int[,] numbers = {
+            int[,] Numbers = {
                 {1, 2 , 4 , 1 },
                 {2, 3 , 5 , 1 },
                 {5, 1 , 7 , 1 }
             };
 
-            string[,] students = {
+            string[,] Student = {
                 {"kong","kaw", "kig", "kam" },
                 {"nik", "nok", "nook","nun" },
                 {"sup","sop","same","som" }
@@ -558,19 +560,19 @@ namespace begining
             
 
             //เข้าถึงข้อมูลสมาชิกใน Array 2 มิติ ด้วย length, GetLength
-            string[,] students = {
+            string[,] student = {
                 {"kong","kaw", "kig", "kam" },
                 {"nik", "nok", "nook","nun" },
                 {"sup","sop","same","som" }
             }; //3แถว 4คอลัมน์
-            Console.WriteLine("Students Array Row = {0}",students.GetLength(0)); //หาแแถว
-            Console.WriteLine("Students Array Colum = {0}", students.GetLength(1)); //หาคอลัมน์
-            Console.WriteLine("Students Array Size = {0}",students.Length);
+            Console.WriteLine("Students Array Row = {0}",student.GetLength(0)); //หาแแถว
+            Console.WriteLine("Students Array Colum = {0}", student.GetLength(1)); //หาคอลัมน์
+            Console.WriteLine("Students Array Size = {0}",student.Length);
             Console.ReadKey(); 
 
 
             //For Loop ใน Array 2 มิติ
-            string[,] students = {
+            string[,] studentt = {
                 {"kong","kaw", "kig", "kam" },
                 {"nik", "nok", "nook","nun" },
                 {"sup","sop","same","som" }
@@ -580,7 +582,7 @@ namespace begining
             {
                 for(int col = 0; col < students.GetLength(1); col++)
                 {
-                    Console.WriteLine("Students [{0}][{1}] = {2} ",row, col,students[row, col]);
+                    Console.WriteLine("Students [{0}][{1}] = {2} ",row, col,studentt[row, col]);
                 }
                 Console.WriteLine("---------------------");
             }
@@ -588,12 +590,12 @@ namespace begining
 
 
             //ForEach ใน Array 2 มิติ
-            string[,] students = {
+            string[,] student1 = {
                 {"kong","kaw", "kig", "kam" },
                 {"nik", "nok", "nook","nun" },
                 {"sup","sop","same","som" }
             };
-            foreach (string name in students)
+            foreach (string name in student1)
             {
                 Console.WriteLine(name);
             }
@@ -610,22 +612,22 @@ namespace begining
 
 
             //เข้าถึงสมาชิกใน Jagged Array โดย For loop
-            string[][] JaggedArray = {
+            string[][] JaggedArray1 = {
                 new string[] {"keaw","khig","nook" },
                 new string[] {"nik","nun" },
                 new string[] {"yut","yat" },
                 new string[] {"pet"}
             };
 
-            for(int row = 0;row < JaggedArray.Length; row++)
+            for(int row = 0;row < JaggedArray1.Length; row++)
             {
-                for(int col = 0;col < JaggedArray[row].Length; col++)
+                for(int col = 0;col < JaggedArray1[row].Length; col++)
                 {
-                    Console.WriteLine("Students JaggedArray [{0}][{1}] = {2}",row,col,JaggedArray[row][col]);
+                    Console.WriteLine("Students JaggedArray [{0}][{1}] = {2}",row,col,JaggedArray1[row][col]);
                 }
                 Console.WriteLine("-----------");
             }
-            Console.ReadKey(); */
+            Console.ReadKey();
 
 
             //การสร้างเมธอด (Method) 
@@ -691,7 +693,7 @@ namespace begining
             {
                 
                 Console.Write("input number1: ");
-                int result = int.Parse(Console.ReadLine());
+                int result1 = int.Parse(Console.ReadLine());
 
             }
             catch (FormatException)
@@ -708,7 +710,7 @@ namespace begining
             }
 
         }
-        /*static void aiSus()
+        static void aiSus()
         {
             Console.WriteLine("aisus");
             Console.ReadKey();
@@ -780,7 +782,7 @@ namespace begining
                 }
             }
             return minValue;
-        }*/
+        }
 
         static int[] copyArray(int[] originalArr)
         {
